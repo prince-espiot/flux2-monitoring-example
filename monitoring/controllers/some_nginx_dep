@@ -51,7 +51,7 @@ data:
         listen 8080;
         location /stub_status {
             stub_status;
-            allow udp and tcp; # Adjust as necessary
+            allow https; # Adjust as necessary
         }
     }
 
